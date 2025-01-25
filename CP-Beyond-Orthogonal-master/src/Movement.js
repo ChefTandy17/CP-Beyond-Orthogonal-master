@@ -46,7 +46,7 @@ class Movement extends Phaser.Scene {
         })
 
 
-        //redoing it
+        //redoing it testing
         this.anims.create({
             key:'idle-up',
             frameRate: 5, //idle down have no animation. just one frame just for this
@@ -56,7 +56,6 @@ class Movement extends Phaser.Scene {
                 end: 10
             })
         })
-
 /* commented out to find error
         this.anims.create({
             key:'walk-down', 
